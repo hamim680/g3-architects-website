@@ -5,3 +5,57 @@
     
 font-family: 'Work Sans', sans-serif;
 }
+/* Header section */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px  240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-primary{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(230, 135, 19);
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 0;
+}
