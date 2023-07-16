@@ -55,7 +55,29 @@ nav ul a{
     height: 40px;
     width: 110px;
     background-color: rgb(230, 135, 19);
-    border-radius: 5px;
+    border-radius: 8px;
     color: whitesmoke;
     border: 0;
+}
+
+/* responsive media query */
+/* mobile device */
+@media screen and (max-width:576px) {
+    header{
+       padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+/* tablet view */
+@media screen and (min-width:577px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+     }
+    
 }
