@@ -107,6 +107,10 @@ main{
     font-size: 40px;
 }
 
+.teams-description{
+    color: rgb(114, 114, 114);
+}
+
 /* responsive media query */
 /* mobile device */
 
